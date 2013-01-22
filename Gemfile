@@ -10,6 +10,7 @@ gem 'nokogiri', '~> 1.4.4'
 gem 'rake', '~> 0.9.2'
 # gem 'thin'
 #gem 'yajl-ruby', '~> 0.8.2'
+gem 'json_pure'
 
 group :development do
   gem 'adsf'
