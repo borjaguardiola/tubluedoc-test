@@ -1,72 +1,43 @@
 ---
-title: GitHub API
+title: BlueVia Voice API Overview
 ---
 
-# The GitHub API
+# The BlueVia Voice API
 
-This describes the resources that make up the official GitHub API v3. If
-you have any problems or requests please contact
-[support](mailto:support@github.com?subject=APIv3).
 
-For the new API v3, start browsing the resources on the right >>
+With the release of the alpha BlueVia voice API, we are allowing you to embed voice functionality into your applications. BlueVia Voice APIs provide you Infrastructure as a Service (IaaS) that is so simple to use, allowing you to add complex voice functionality to your applications without any of the associated hassle. Think of the use case and within minutes you can prototype it, test it and deploy it. We manage all of the hard voice connectivity work on your behalf.
 
-View the [API Changelog](#changes) for information on existing and
-planned changes to the API.
+The launch of the BlueVia Voice APIs marks the first time that any mobile carrier has exposed voice assets through a zero touch interface - that's right you don't need to fill out reams of documentation to play! Simply join the alpha, we will give you some numbers for free, and you can play within minutes! Have a look at the [BlueVia Voice API Quick Start Guide] [Quick Start Guide] to see how easy it is to play with our network. 
 
-## Current Version
+It could not be easier to add voice functionality into your application using our APIs they are that simple to use. Here are the basics:
 
-    Accept: application/vnd.github.beta+json
+* [Configure your BlueVia Voice number] [Overview Configure]
+* Call it. Of course to do something a little more advance please have a look at the [BlueVia Voice API Quick Start Guide] [Quick Start Guide] 
 
-The GitHub API version is currently in beta.  [The `beta` media type](/v3/media/)
-property will be valid until sometime in 2013.  A notice will be given closer
-to the actual date.
+It's that simple. In fact during the alpha period we had made this even simpler by:
 
-We consider the "beta" API unchangeable.  [File a support issue](https://github.com/contact)
-if you have problems.
+* Giving you numbers to play with, all you have to do is [Configure your BlueVia Voice number] [Overview Configure]
+* We have also made **inbound calling to these numbers free**, for the alpha period only. This will allow you to explore The BlueVia Voice API, completely free of charge. Once the alpha period is complete, inbound calls to BlueVia Voice numbers will be charged. See the [BlueVia Voice API pricing] [Overview Pricing] for further details on API usage charges. 
+* **NOTE:** That outbound calls from your [BlueVia Voice numbers] [BlueVia Dashboard] to phones does have a cost. For all call pricing information, refer to the [BlueVia Voice API pricing] [Overview Pricing]. Also for information about adding balance to your account, such that you can make outbound calls, refer to the [Adding balance to your BlueVia account] [Overview Add Balance] section.
 
-#### Expected Changes
+The BlueVia Voice API can be used in either of two ways (or a combination of both!). BlueVia Voice can be engaged via a [RESTful API] [API Reference] or via [Call Control Commands] [Command Reference] that you provide to BlueVia.
 
-These changes are _not_ implemented, just planned for the next major API version.
+**TODO Image for service overview and description**
 
-* `[ ]` Standardize on existing `*_url` attributes for hypermedia.  Remove all `_links`
-objects.
-* `[✓]` <del>The '/repos/:owner/:repo/hooks/:id/test' action becomes
-  '/repos/:owner/:repo/hooks/:id/tests'.</del>
-* `[✓]` <del>The '/gists/:id/fork' action becomes '/gists/:id/forks'.</del> 
-* `[ ]` Gist forks/history objects become separate API calls.
-* `[ ]` Gist files object is not returned on Gist listings.
-* `[ ]` Commit schema will change to be [more consistent](https://gist.github.com/3a2e5779588e21b0c0f3).
-* `[ ]` `master_branch` becomes `default_branch`.
-* `[ ]` `integrate_branch` on the [repo API](/v3/repos/#get) will no longer be
-  returned.
-* `[ ]` Use the `private` attribute when creating a private repository,
-  instead of setting `public` to false.
-* `[ ]` Use JSON to POST to the "repos/:owner/:repo/forks" endpoint, instead of a query string.
-* `[✓]` <del>User Emails come back [as a hash][v3-email] instead of a string.</del>
+[Forward - REST API Overview][Overview REST API]
 
-### Breaking Beta Changes
+[index]: index
+[Quick Start Guide]: /alpha/quickstart/introduction
+[Overview Configure]: /alpha/overview/configure
+[Overview Pricing]: /alpha/overview/pricing
+[Overview REST API]: /alpha/overview/restapi
+[Overview Call Control]: /alpha/overview/callcontrol
+[Overview Add Balance]: /alpha/overview/balance
+[API Reference]: /alpha/restref/introduction
+[Command Reference]: /alpha/commandref/introduction
+[BlueVia Dashboard]: http://www.bluevia.com
 
-##### June 12, 2012:
-* Removed API v1 support
-* Removed API v2 support
 
-##### June 15th, 2011:
 
-* `gravatar_url` is being deprecated in favor of `avatar_url` for all
-  responses that include users or orgs. A default size is no longer
-  included in the url.
-* Creating new gists (both anonymously and with an authenticated user)
-  should use `POST /gists` from now on. `POST /users/:user/gists` is no
-  longer supported.
 
-##### June 1st, 2011:
 
-* Removed support for PUT verb on update requests. Use POST or PATCH
-  instead.
-* Removed `.json` extension from all URLs.
-* No longer using the X-Next or X-Last headers. Pagination info is
-  returned in the Link header instead.
-* JSON-P response has completely changed to a more consistent format.
-* Starring gists now uses PUT verb (instead of POST) and returns 204.
-
-[v3-email]: /v3/users/emails/#future-response
