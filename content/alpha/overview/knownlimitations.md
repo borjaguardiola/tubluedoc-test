@@ -11,12 +11,13 @@ If there is something further, not listed here that is causing you issues, pleas
 
 Currently you can only use the *export functionality* for the [record command][Command Reference Record]. Initially during the alpha we will not be hosting any recordings you make on our servers. For our release 1.0 we will be supporting the hosting of recordings. There are a few things that you should be aware of:
 
-You can only play back the recording you have made when it is available on your server. BlueVia will have to have completed the HTTP POST of your recording to either your server (or as you can see in the [record command][Command Reference Record] description, initially we will also allow you to export your recording to Amazon Web Services S3 storage). This is not a major issue for small recordings, for example the recording of a conference participants name, but immediate playback of longer recordings may be an issue. BlueVia will only POST to the recording to your chosen export location once the recording has been completed. 
-We are going to add a post complete notification to allow developers to know exactly when a recording export has been completed. 
+* You can only play back the recording you have made when it is available on your server. BlueVia will have to have completed the HTTP POST of your recording to either your server (or as you can see in the [record command][Command Reference Record] description, initially we will also allow you to export your recording to Amazon Web Services S3 storage). This is not a major issue for small recordings, for example the recording of a conference participants name, but immediate playback of longer recordings may be an issue. BlueVia will only POST to the recording to your chosen export location once the recording has been completed. 
+* We are going to add a post complete notification to allow developers to know exactly when a recording export has been completed. 
 
 ## Purchasing Numbers
 
 For the alpha release of the platform it is not possible to purchase numbers. For the alpha we are giving you numbers in each of our launch countries: 
+
 * The USA and Canada
 * The UK and
 * Germany.
