@@ -46,10 +46,10 @@ To make outbound calls via the the [BlueVia VOICE RESTful API][API Reference] yo
 [BlueVia Dashboard]: https://www.bluevia.com
 [Command Reference Speak]: /alpha/commandref/speak
 [Command Reference Hangup]: /alpha/commandref/hangup
-[Quick Start Guide]: /alpha/quickstart/introduction
-[Command Reference]: /alpha/commandref/introduction
+[Quick Start Guide]: /alpha/quickstart/
+[Command Reference]: /alpha/commandref/
 [Quick Start Guide Connect Call No Code]: /alpha/quickstart/connectcallnocode
 [Quick Start Guide REST API Create Call]: /alpha/quickstart/restapicreatecall
-[API Reference]: /alpha/restref/introduction
+[API Reference]: /alpha/restref/
 [Overview Configure]: /alpha/overview/configure
 [Overview Pricing]: /alpha/overview/pricing

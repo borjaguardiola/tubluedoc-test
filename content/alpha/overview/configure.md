@@ -6,7 +6,7 @@ It is also possible to configure your numbers using the [BlueVia Voice REST API]
 
 Initially there are two URLs to configure for each number. They are:
  
-**Firstly** the *Voice Callback URL* - This URL is used by BlueVia to make HTTP POST requests for any notifications made to your application server. When BlueVia makes a request to this URL, that should point to your application server, if you choose to you can specify call control commands in the response. You should always respond with a HTTP 200 Success response, otherwise BlueVia may call our fallback URL unnecessarily. All [BlueVia Voice API Notifications][Notifications Introduction] will be sent to this URL. 
+**Firstly** the *Voice Callback URL* - This URL is used by BlueVia to make HTTP POST requests for any notifications made to your application server. When BlueVia makes a request to this URL, that should point to your application server, if you choose to you can specify call control commands in the response. You should always respond with a HTTP 200 Success response, otherwise BlueVia may call our fallback URL unnecessarily. All [BlueVia Voice API Notifications][Notifications] will be sent to this URL. 
 
 The URL can either be HTTP endpoint or a HTTPS endpoint. BlueVia will automatically trust a HTTPS endpoint covered by a certificate from a trusted certificate authority,  Currently you cannot use a self signed certificate for your HTTPS endpoints. Only trusted certificates can be used.
 
@@ -18,19 +18,19 @@ If you receive a request to your fallback URL you are able to gracefully manage 
 
 If there is any error received by BlueVia as the result of a request to your fallback URL, BlueVia will not retry the request. Consequently any call functionality, in this case, will fail.
 
-During the alpha period there will not be any call failure reporting available on the BlueVia portal. Please refer to the [BlueVia Voice API roadmap][RoadMap Introduction] to see when error and debugging reporting will be available for the APIs   
+During the alpha period there will not be any call failure reporting available on the BlueVia portal. Please refer to the [BlueVia Voice API roadmap][RoadMap] to see when error and debugging reporting will be available for the APIs   
 
 When we add SMS support, for BlueVia Voice Numbers that have access to SMS, you will also be able to specify the SMS callback URL - the URL used by BlueVia to notify of an inbound SMS, and the SMS fallback URL - the URL used by BlueVia to notify of any HTTP errors encountered by BlueVia when trying to make a POST request to the SMS callback URL. These will also have a default configuration, that you can override, once SMS functionality is available, post the BlueVia Voice alpha release. 
 
-In the same manner as you can override, voice callback and fallback URLs, you will be able to modify SMS callback and fallback URLs via the RESTful API that will be made available, post alpha release, that will provide access to a SMS resource. Please refer to the [BlueVia Voice API roadmap][RoadMap Introduction] to see when SMS functionality will be available.    
+In the same manner as you can override, voice callback and fallback URLs, you will be able to modify SMS callback and fallback URLs via the RESTful API that will be made available, post alpha release, that will provide access to a SMS resource. Please refer to the [BlueVia Voice API roadmap][RoadMap] to see when SMS functionality will be available.    
 
 
 
 [Forward - Using Your BlueVia Voice Numbers] [Overview Using Numbers] /  [Back - Buying Numbers] [Overview Numbers]
 
 [BlueVia Dashboard]: http://www.bluevia.com
-[API Reference]: /alpha/restref/introduction
-[Notifications Introduction]: /alpha/notifications/introduction
-[RoadMap Introduction]: /alpha/roadmap/introduction
+[API Reference]: /alpha/restref/
+[Notifications]: /alpha/notifications/
+[RoadMap]: /alpha/roadmap/
 [Overview Numbers]: /alpha/overview/numbers
 [Overview Using Numbers]: /alpha/overview/usingnumbers

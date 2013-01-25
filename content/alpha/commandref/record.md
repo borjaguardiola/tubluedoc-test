@@ -1,1 +1,1 @@
-record info
+record command

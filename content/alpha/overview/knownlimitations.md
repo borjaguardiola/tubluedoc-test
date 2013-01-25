@@ -1,7 +1,7 @@
 # Known Alpha Limitations
 
 
-The alpha release of the BlueVia voice API’s, as the name suggests, is an alpha! Although there are no usage limitations of the service, there are some functional limitations, that we are addressing and rolling out soon. Please see the [BlueVia Voice roadmap][RoadMap Introduction] for an overview of when our release 1.0 will be available and detail of the further functionality we will be offering soon!
+The alpha release of the BlueVia voice API’s, as the name suggests, is an alpha! Although there are no usage limitations of the service, there are some functional limitations, that we are addressing and rolling out soon. Please see the [BlueVia Voice roadmap][RoadMap] for an overview of when our release 1.0 will be available and detail of the further functionality we will be offering soon!
 
 The following provides an overview of immediate limitations that you should be aware of. It's probably a good idea to give these an initial skim read so you can refer back to them when you start playing with the functionality.
 
@@ -26,7 +26,7 @@ These numbers are free for your use during the alpha period. Once the alpha has 
 
 ## SMS Support
 
-SMS from your BlueVia Numbers is coming soon. To see when this will be available, and in which countries, please see the [BlueVia Voice Roadmap][Roadmap Introduction]
+SMS from your BlueVia Numbers is coming soon. To see when this will be available, and in which countries, please see the [BlueVia Voice Roadmap][Roadmap]
 
 ## Service Usage Reporting
 
@@ -38,7 +38,7 @@ If you create a call using the [/calls resource][API Reference Call Collection],
 
 We are working to expose a report on the BlueVia portal that will highlight all errors that occur on your numbers
  
-We are also working to expose an error notification event, [see call notifications][Notifications Introduction] such that it is possible to be notified to your callback URL when an error occurs on your numbers
+We are also working to expose an error notification event, [see call notifications][Notifications] such that it is possible to be notified to your callback URL when an error occurs on your numbers
 
 ## RESTful API
 
@@ -48,12 +48,12 @@ Full resource access within the [BlueVia RESTful API][API Reference] is not avai
 [Forward - BlueVia Voice API Quick Start Guide] [Quick Start Guide] / [Back - BlueVia Voice API Costs] [Overview Pricing]
 
 
-[RoadMap Introduction]: /alpha/roadmap/introduction
+[RoadMap]: /alpha/roadmap/
 [BlueVia Twitter]: http://www.twitter.com/bluevia
 [Command Reference Record]: /alpha/commandref/record
 [API Reference Call Collection]: /alpha/restref/callcollection
 [Quick Start Modify Call]: /alpha/quickstart/modifycall
-[Notifications Introduction]: /alpha/notifications/introduction
-[API Reference]: /alpha/restref/introduction
+[Notifications]: /alpha/notifications/
+[API Reference]: /alpha/restref/
 [Overview Pricing]: /alpha/overview/pricing
-[Quick Start Guide]: /alpha/quickstart/introduction
+[Quick Start Guide]: /alpha/quickstart/

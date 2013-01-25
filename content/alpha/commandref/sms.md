@@ -1,1 +1,1 @@
-sms detail
+sms command

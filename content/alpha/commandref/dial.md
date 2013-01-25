@@ -1,1 +1,1 @@
-dial description
+dial command

@@ -1,1 +1,1 @@
-redirect detail
+redirect comand

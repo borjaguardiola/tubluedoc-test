@@ -24,7 +24,7 @@ Using call control commands you can:
 [Forward - Call Flows] [Overview Call Flows]  /  [Back - The BlueVia RESTful API][Overview REST API]  
 
 
-[Command Reference]: /alpha/commandref/introduction
+[Command Reference]: /alpha/commandref/
 [Command Reference Dial]: /alpha/commandref/dial
 [Command Reference Dial Number]: /alpha/commandref/dial#number
 [Command Reference Dial Conference]: /alpha/commandref/dial#conference

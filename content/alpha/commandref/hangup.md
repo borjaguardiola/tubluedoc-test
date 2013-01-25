@@ -1,1 +1,1 @@
-hangup detail
+hangup command
