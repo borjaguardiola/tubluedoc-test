@@ -1,1 +1,3 @@
-REST API PRovide commands ro speciufic legs
+# Providing Commands to Specific Call Legs
+
+@todo add detail about how to do this
