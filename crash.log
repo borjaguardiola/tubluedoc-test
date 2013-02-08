@@ -1,49 +1,44 @@
-Crashlog created at 2013-01-25 10:20:28 +0000
+Crashlog created at 2013-02-08 11:57:31 +0100
 
 === MESSAGE:
 
-RuntimeError: Cannot build Atom feed: no articles
+Nanoc::Errors::CannotUseTextualFilter: The “Nanoc::Filters::ERB” filter cannot be used to filter the “/alpha/” item (rep “default”), because textual filters cannot be used on binary items.
 
 === COMPILATION STACK:
 
-  - [item]   /feed/ (rep default)
+  - [item]   /alpha/ (rep default)
 
 === BACKTRACE:
 
-  0. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/helpers/blogging.rb:178:in `atom_feed'
-  1. item /feed/ (rep default):1:in `get_binding'
-  2. C:/Ruby193/lib/ruby/1.9.1/erb.rb:838:in `eval'
-  3. C:/Ruby193/lib/ruby/1.9.1/erb.rb:838:in `result'
-  4. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/filters/erb.rb:34:in `run'
-  5. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/result_data/item_rep.rb:348:in `filter'
-  6. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
-  7. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
-  8. ./Rules:20:in `block in load'
-  9. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  10. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  11. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:383:in `compile_rep'
-  12. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:339:in `block in compile_reps'
-  13. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:332:in `loop'
-  14. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:332:in `compile_reps'
-  15. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  16. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  17. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/commands/compile.rb:62:in `run'
-  18. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  19. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
-  20. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  21. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/command_runner.rb:13:in `call'
-  22. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
-  23. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
-  24. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
-  25. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
-  26. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
-  27. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli.rb:52:in `block in run'
-  28. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
-  29. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  30. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli.rb:50:in `run'
-  31. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/bin/nanoc:19:in `<top (required)>'
-  32. C:/Ruby193/bin/nanoc:23:in `load'
-  33. C:/Ruby193/bin/nanoc:23:in `<main>'
+  0. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/result_data/item_rep.rb:336:in `filter'
+  1. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
+  2. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
+  3. ./Rules:36:in `block in load'
+  4. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  5. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  6. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:383:in `compile_rep'
+  7. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:339:in `block in compile_reps'
+  8. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:332:in `loop'
+  9. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:332:in `compile_reps'
+  10. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/compilation/compiler.rb:89:in `run'
+  11. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/base/source_data/site.rb:58:in `compile'
+  12. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/commands/compile.rb:62:in `run'
+  13. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  14. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
+  15. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  16. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/command_runner.rb:13:in `call'
+  17. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
+  18. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  19. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  20. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  21. C:/Ruby193/lib/ruby/gems/1.9.1/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  22. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli.rb:52:in `block in run'
+  23. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
+  24. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  25. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/lib/nanoc/cli.rb:50:in `run'
+  26. C:/Ruby193/lib/ruby/gems/1.9.1/gems/nanoc-3.4.3/bin/nanoc:19:in `<top (required)>'
+  27. C:/Ruby193/bin/nanoc:23:in `load'
+  28. C:/Ruby193/bin/nanoc:23:in `<main>'
 
 === VERSION INFORMATION:
 
@@ -52,7 +47,7 @@ Running ruby 1.9.3 (2013-01-15) on i386-mingw32 with RubyGems 1.8.24.
 
 === SYSTEM INFORMATION:
 
-MINGW32_NT-6.1 LASST249404 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
+MINGW32_NT-6.1 SG-1476 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
 
 === INSTALLED GEMS:
 
@@ -74,63 +69,64 @@ MINGW32_NT-6.1 LASST249404 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
 === ENVIRONMENT:
 
 ALLUSERSPROFILE => "C:\\ProgramData"
-APPDATA => "C:\\Users\\mfortes1\\AppData\\Roaming"
+APPDATA => "C:\\Users\\operador\\AppData\\Roaming"
 BUNDLE_BIN_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1/gems/bundler-1.2.3/bin/bundle"
-BUNDLE_GEMFILE => "C:/Users/mfortes1/Documents/GitHub/TuBlue-Docs/Gemfile"
-BuildVersion => "A/7.1.1.2"
-COMPUTERNAME => "LASST249404"
+BUNDLE_GEMFILE => "C:/Users/operador/Documents/GitHub/TuBlue-Docs/Gemfile"
+COMPUTERNAME => "SG-1476"
 ComSpec => "C:\\windows\\system32\\cmd.exe"
-CommonProgramFiles => "C:\\Program Files\\Common Files"
-DEFLOGDIR => "C:\\ProgramData\\McAfee\\DesktopProtection"
+CommonProgramFiles => "C:\\Program Files (x86)\\Common Files"
+CommonProgramFiles(x86) => "C:\\Program Files (x86)\\Common Files"
+CommonProgramW6432 => "C:\\Program Files\\Common Files"
 EDITOR => "GitPad"
 FP_NO_HOST_CHECK => "NO"
 GEM_HOME => "C:/Ruby193/lib/ruby/gems/1.9.1"
-GEM_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1;C:/Users/mfortes1/.gem/ruby/1.9.1"
-HOME => "C:\\Users\\mfortes1"
+GEM_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1;C:/Users/operador/.gem/ruby/1.9.1"
+HOME => "C:\\Users\\operador"
 HOMEDRIVE => "C:"
-HOMEPATH => "\\Users\\mfortes1"
-LOCALAPPDATA => "C:\\Users\\mfortes1\\AppData\\Local"
-LOGONSERVER => "\\\\UKELLADS001"
+HOMEPATH => "\\Users\\operador"
+LOCALAPPDATA => "C:\\Users\\operador\\AppData\\Local"
+LOGONSERVER => "\\\\SG-1476"
 NUMBER_OF_PROCESSORS => "4"
 OS => "Windows_NT"
-PATHEXT => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+OnlineServices => "Online Services"
+PATHEXT => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"
+PCBRAND => "s"
 PLINK_PROTOCOL => "ssh"
 PROCESSOR_ARCHITECTURE => "x86"
-PROCESSOR_IDENTIFIER => "x86 Family 6 Model 42 Stepping 7, GenuineIntel"
+PROCESSOR_ARCHITEW6432 => "AMD64"
+PROCESSOR_IDENTIFIER => "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"
 PROCESSOR_LEVEL => "6"
 PROCESSOR_REVISION => "2a07"
 PROMPT => "$P$G"
 PSExecutionPolicyPreference => "Unrestricted"
-PSModulePath => "C:\\Users\\mfortes1\\Documents\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"
+PSModulePath => "C:\\Users\\operador\\Documents\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"
+PTSMInstallPath_X86 => "c:\\Program Files (x86)\\Hewlett-Packard\\HP ProtectTools Security Manager\\"
 PUBLIC => "C:\\Users\\Public"
-Path => "C:/Ruby193/lib/ruby/gems/1.9.1/bin;C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\cmd;C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\bin;C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\mingw\\bin;C:\\Users\\mfortes1\\AppData\\Local\\Apps\\2.0\\YZK90HAC.R6N\\KBP87PA4.RNJ\\gith..tion_8f45a2159c87c850_0001.0000_4fca6a02c52cbc80;C:\\windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Users\\mfortes1\\AppData\\Local\\Apps\\2.0\\YZK90HAC.R6N\\KBP87PA4.RNJ\\gith..tion_8f45a2159c87c850_0001.0000_4fca6a02c52cbc80\\NativeBinaries/x86;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Enterprise Vault\\EVClient\\;C:\\Ruby193\\bin"
+Path => "C:/Ruby193/lib/ruby/gems/1.9.1/bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\cmd;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\bin;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040;C:\\windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040\\NativeBinaries/x86;C:\\Ruby193\\bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\cmd;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\mingw\\bin;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_f35d3e4b23b1eb00;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;\\Ruby193\\bin"
+Platform => "BNB"
 ProgramData => "C:\\ProgramData"
-ProgramFiles => "C:\\Program Files"
+ProgramFiles => "C:\\Program Files (x86)"
+ProgramFiles(x86) => "C:\\Program Files (x86)"
+ProgramW6432 => "C:\\Program Files"
 RUBYOPT => "-IC:/Ruby193/lib/ruby/gems/1.9.1/gems/bundler-1.2.3/lib -rbundler/setup"
 SESSIONNAME => "Console"
-SSH_AGENT_PID => "6732"
-SSH_AUTH_SOCK => "/tmp/ssh-WlwjBm7908/agent.7908"
+SSH_AGENT_PID => "6760"
+SSH_AUTH_SOCK => "/tmp/ssh-qIxPFB6532/agent.6532"
 SystemDrive => "C:"
 SystemRoot => "C:\\windows"
-TEMP => "C:\\Users\\mfortes1\\AppData\\Local\\Temp\\"
+TEMP => "C:\\Users\\operador\\AppData\\Local\\Temp\\"
 TERM => "cygwin"
-TMP => "C:\\Users\\mfortes1\\AppData\\Local\\Temp\\"
-USER => "MFortes1"
-USERDNSDOMAIN => "UK.PRI.O2.COM"
-USERDOMAIN => "UK"
-USERNAME => "MFortes1"
-USERPROFILE => "C:\\Users\\mfortes1"
-VSEDEFLOGDIR => "C:\\ProgramData\\McAfee\\DesktopProtection"
-_REAL_TEMP_ => "C:\\ProgramData\\InstallFree\\MFortes1.UK\\IFBridge"
-bridgepackages => "C:\\ProgramData\\InstallFree\\MFortes1.UK\\IFBridge\\packages"
-git_install_root => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
-github_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
-github_posh_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a"
+TMP => "C:\\Users\\operador\\AppData\\Local\\Temp\\"
+USER => "operador"
+USERDOMAIN => "SG-1476"
+USERNAME => "operador"
+USERPROFILE => "C:\\Users\\operador"
+git_install_root => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
+github_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
+github_posh_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a"
 github_shell => "true"
-posh_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a\\profile.example.ps1"
+posh_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a\\profile.example.ps1"
 windir => "C:\\windows"
-windows_tracing_flags => "3"
-windows_tracing_logfile => "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
 
 === GEMFILE.LOCK:
 
