@@ -111,7 +111,17 @@
     <div class="row-fluid">
       <div class="content span8 offset1">
 
-        <%= yield %></div>
+        <ul class="breadcrumb">
+          <li><a href="/">Home</a> <span class="divider">/</span></li>
+          <li class="active"></li>
+        </ul>
+
+        <%= yield %>
+        <hr/>
+        <span id="prevPage" class="pull-left"></span>
+        <span id="nextPage" class="pull-right"></span>
+
+      </div>
 
       <div id="sidebar" class="span3">
         <div class="accordion" id="accordionMenu">
@@ -123,13 +133,7 @@
             <div class="accordion-inner">
               <ul class="js-guides nav nav-list sidemenu">
                 <li>
-                  <a href="/alpha/overview/restapi/#bluevia-voice-restful-api">BlueVia Voice RESTful API</a>
-                </li>
-                <li>
-                  <a href="#bluevia-voice-restful-api2">BlueVia Voice RESTful API</a>
-                </li>
-                <li>
-                  <a href="#bluevia-voice-restful-api3">BlueVia Voice RESTful API</a>
+                  <a href="/alpha/overview/restapi/">BlueVia Voice RESTful API</a>
                 </li>
                 <li>
                   <a href="/alpha/overview/callcontrol/">BlueVia Voice Call Control Commands</a>
@@ -423,9 +427,42 @@
   <!-- /#footer -->
 </div>
 <script>
-$(".apidoc dt").addClass("span3");
-$(".apimethod dt").addClass("span1");
-$(".apimethod dd").addClass("offset1");
+
+  $(".apidoc dt").addClass("span3");
+  $(".apimethod dt").addClass("span1");
+  $(".apimethod dd").addClass("offset1");
+
+  pathname = window.location.pathname;
+  $("a[href='"+pathname+"']").parent().addClass("active");
+  $("a[href='"+pathname+"']").parents(".collapse").collapse("show");
+
+  pathtitle = $("#sidebar a[href='"+pathname+"']")[0];
+
+  parentGroup = $(pathtitle).parents(".accordion-group");
+
+  prevPage = $(pathtitle).parent().prev().children("a")[0];
+  if(prevPage == null){
+    prevPage = $("li:last a",$(parentGroup).prev());
+  }
+
+  nextPage = $(pathtitle).parent().next().children("a")[0];
+  if(nextPage == null){
+    nextPage = $("li:first a",$(parentGroup).next());
+  }
+
+  $("#prevPage").html($(prevPage).clone());
+  $("#nextPage").html($(nextPage).clone());
+
+
+  parentCategoryText = $(".accordion-heading a:last",parentGroup)[0];
+  
+  if(parentCategoryText != null) {
+    if(parentCategoryText.text != pathtitle.text)
+      $(".breadcrumb li.active").before('<li><a href="'+parentCategoryText.href+'">'+parentCategoryText.text+'</a> <span class="divider">/</span></li>');
+  }
+
+  $(".breadcrumb .active").text(pathtitle.text);
+
 </script>
 </body>
 </html>
