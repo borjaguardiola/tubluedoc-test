@@ -99,7 +99,7 @@
     <div id="header" class="container-fluid">
       <div class="row-fluid">
         <a class="logo offset1" href="/">
-          <img src="http://bluevia.com/img/BlueVia-Hdr-Logo-SML.png" width="100" alt="Bluevia Logo" /><span class="lightblue">Docs</span>
+          <img src="http://bluevia.com/img/BlueVia-Hdr-Logo-SML.png" width="100" alt="Bluevia Logo" /><span class="lightblue"></span>
         </a> 
 
       </div>
@@ -432,36 +432,34 @@
   $(".apimethod dt").addClass("span1");
   $(".apimethod dd").addClass("offset1");
 
+  // Highlighting current page in the sidebar menu
   pathname = window.location.pathname;
   $("a[href='"+pathname+"']").parent().addClass("active");
   $("a[href='"+pathname+"']").parents(".collapse").collapse("show");
 
   pathtitle = $("#sidebar a[href='"+pathname+"']")[0];
 
+
+  // Previous and next links
+  menuLinks = $("#sidebar a").not(".accordion-toggle");
+  pageIndex = $(menuLinks).index($(pathtitle));
+  prevPage = $($(menuLinks)[pageIndex - 1]).clone();
+  nextPage = $($(menuLinks)[pageIndex + 1]).clone();
+  $(prevPage).prepend("<< ");
+  $(nextPage).append(" >>");
+
+  $("#prevPage").html($(prevPage));
+  $("#nextPage").html($(nextPage));
+
+  // Breadcrumbs
   parentGroup = $(pathtitle).parents(".accordion-group");
-
-  prevPage = $(pathtitle).parent().prev().children("a")[0];
-  if(prevPage == null){
-    prevPage = $("li:last a",$(parentGroup).prev());
-  }
-
-  nextPage = $(pathtitle).parent().next().children("a")[0];
-  if(nextPage == null){
-    nextPage = $("li:first a",$(parentGroup).next());
-  }
-
-  $("#prevPage").html($(prevPage).clone());
-  $("#nextPage").html($(nextPage).clone());
-
-
   parentCategoryText = $(".accordion-heading a:last",parentGroup)[0];
-  
   if(parentCategoryText != null) {
-    if(parentCategoryText.text != pathtitle.text)
-      $(".breadcrumb li.active").before('<li><a href="'+parentCategoryText.href+'">'+parentCategoryText.text+'</a> <span class="divider">/</span></li>');
+    if($(parentCategoryText).text() != $(pathtitle).text())
+      $(".breadcrumb li.active").before('<li><a href="'+$(parentCategoryText).attr("href")+'">'+$(parentCategoryText).text()+'</a> <span class="divider">/</span></li>');
   }
-
-  $(".breadcrumb .active").text(pathtitle.text);
+  if (pathtitle != null)
+    $(".breadcrumb .active").text(pathtitle.text);
 
 </script>
 </body>
