@@ -1,12 +1,12 @@
-Crashlog created at 2013-02-08 11:57:31 +0100
+Crashlog created at 2013-02-11 16:55:13 +0000
 
 === MESSAGE:
 
-Nanoc::Errors::CannotUseTextualFilter: The “Nanoc::Filters::ERB” filter cannot be used to filter the “/alpha/” item (rep “default”), because textual filters cannot be used on binary items.
+Nanoc::Errors::CannotUseTextualFilter: The “Nanoc::Filters::ERB” filter cannot be used to filter the “/alpha/play/panic/” item (rep “default”), because textual filters cannot be used on binary items.
 
 === COMPILATION STACK:
 
-  - [item]   /alpha/ (rep default)
+  - [item]   /alpha/play/panic/ (rep default)
 
 === BACKTRACE:
 
@@ -47,7 +47,7 @@ Running ruby 1.9.3 (2013-01-15) on i386-mingw32 with RubyGems 1.8.24.
 
 === SYSTEM INFORMATION:
 
-MINGW32_NT-6.1 SG-1476 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
+MINGW32_NT-6.1 LASST249404 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
 
 === INSTALLED GEMS:
 
@@ -69,64 +69,61 @@ MINGW32_NT-6.1 SG-1476 1.0.12(0.46/3/2) 2011-07-20 17:52 i686 unknown
 === ENVIRONMENT:
 
 ALLUSERSPROFILE => "C:\\ProgramData"
-APPDATA => "C:\\Users\\operador\\AppData\\Roaming"
+APPDATA => "C:\\Users\\mfortes1\\AppData\\Roaming"
 BUNDLE_BIN_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1/gems/bundler-1.2.3/bin/bundle"
-BUNDLE_GEMFILE => "C:/Users/operador/Documents/GitHub/TuBlue-Docs/Gemfile"
-COMPUTERNAME => "SG-1476"
+BUNDLE_GEMFILE => "C:/Users/mfortes1/Documents/GitHub/TuBlue-Docs/Gemfile"
+BuildVersion => "A/7.1.1.2"
+COMPUTERNAME => "LASST249404"
 ComSpec => "C:\\windows\\system32\\cmd.exe"
-CommonProgramFiles => "C:\\Program Files (x86)\\Common Files"
-CommonProgramFiles(x86) => "C:\\Program Files (x86)\\Common Files"
-CommonProgramW6432 => "C:\\Program Files\\Common Files"
+CommonProgramFiles => "C:\\Program Files\\Common Files"
+DEFLOGDIR => "C:\\ProgramData\\McAfee\\DesktopProtection"
 EDITOR => "GitPad"
 FP_NO_HOST_CHECK => "NO"
 GEM_HOME => "C:/Ruby193/lib/ruby/gems/1.9.1"
-GEM_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1;C:/Users/operador/.gem/ruby/1.9.1"
-HOME => "C:\\Users\\operador"
+GEM_PATH => "C:/Ruby193/lib/ruby/gems/1.9.1;C:/Users/mfortes1/.gem/ruby/1.9.1"
+HOME => "C:\\Users\\mfortes1"
 HOMEDRIVE => "C:"
-HOMEPATH => "\\Users\\operador"
-LOCALAPPDATA => "C:\\Users\\operador\\AppData\\Local"
-LOGONSERVER => "\\\\SG-1476"
+HOMEPATH => "\\Users\\mfortes1"
+LOCALAPPDATA => "C:\\Users\\mfortes1\\AppData\\Local"
+LOGONSERVER => "\\\\UKELLADS002"
 NUMBER_OF_PROCESSORS => "4"
 OS => "Windows_NT"
-OnlineServices => "Online Services"
-PATHEXT => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"
-PCBRAND => "s"
+PATHEXT => ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
 PLINK_PROTOCOL => "ssh"
 PROCESSOR_ARCHITECTURE => "x86"
-PROCESSOR_ARCHITEW6432 => "AMD64"
-PROCESSOR_IDENTIFIER => "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel"
+PROCESSOR_IDENTIFIER => "x86 Family 6 Model 42 Stepping 7, GenuineIntel"
 PROCESSOR_LEVEL => "6"
 PROCESSOR_REVISION => "2a07"
 PROMPT => "$P$G"
 PSExecutionPolicyPreference => "Unrestricted"
-PSModulePath => "C:\\Users\\operador\\Documents\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"
-PTSMInstallPath_X86 => "c:\\Program Files (x86)\\Hewlett-Packard\\HP ProtectTools Security Manager\\"
+PSModulePath => "C:\\Users\\mfortes1\\Documents\\WindowsPowerShell\\Modules;C:\\windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\"
 PUBLIC => "C:\\Users\\Public"
-Path => "C:/Ruby193/lib/ruby/gems/1.9.1/bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\cmd;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\bin;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040;C:\\windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040\\NativeBinaries/x86;C:\\Ruby193\\bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\cmd;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\bin;C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_8810fd5c2c79c73adcc73fd0825f3b32fdb816e7\\mingw\\bin;C:\\Users\\operador\\AppData\\Local\\Apps\\2.0\\J8EZ7C18.4YE\\2KNH7N77.36W\\gith..tion_8f45a2159c87c850_0001.0000_f35d3e4b23b1eb00;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\Common Files\\Microsoft Shared\\Windows Live;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Intel\\Services\\IPT\\;\\Ruby193\\bin"
-Platform => "BNB"
+Path => "C:/Ruby193/lib/ruby/gems/1.9.1/bin;C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\cmd;C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6\\bin;C:\\Users\\mfortes1\\AppData\\Local\\Apps\\2.0\\YZK90HAC.R6N\\KBP87PA4.RNJ\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040;C:\\windows\\Microsoft.NET\\Framework\\v4.0.30319;C:\\Users\\mfortes1\\AppData\\Local\\Apps\\2.0\\YZK90HAC.R6N\\KBP87PA4.RNJ\\gith..tion_8f45a2159c87c850_0001.0000_1a2fc5f43cca9040\\NativeBinaries/x86;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Enterprise Vault\\EVClient\\;C:\\Ruby193\\bin"
 ProgramData => "C:\\ProgramData"
-ProgramFiles => "C:\\Program Files (x86)"
-ProgramFiles(x86) => "C:\\Program Files (x86)"
-ProgramW6432 => "C:\\Program Files"
+ProgramFiles => "C:\\Program Files"
 RUBYOPT => "-IC:/Ruby193/lib/ruby/gems/1.9.1/gems/bundler-1.2.3/lib -rbundler/setup"
 SESSIONNAME => "Console"
-SSH_AGENT_PID => "6760"
-SSH_AUTH_SOCK => "/tmp/ssh-qIxPFB6532/agent.6532"
+SSH_AGENT_PID => "6328"
+SSH_AUTH_SOCK => "/tmp/ssh-plXjyy6852/agent.6852"
 SystemDrive => "C:"
 SystemRoot => "C:\\windows"
-TEMP => "C:\\Users\\operador\\AppData\\Local\\Temp\\"
+TEMP => "C:\\Users\\mfortes1\\AppData\\Local\\Temp\\"
 TERM => "cygwin"
-TMP => "C:\\Users\\operador\\AppData\\Local\\Temp\\"
-USER => "operador"
-USERDOMAIN => "SG-1476"
-USERNAME => "operador"
-USERPROFILE => "C:\\Users\\operador"
-git_install_root => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
-github_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
-github_posh_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a"
+TMP => "C:\\Users\\mfortes1\\AppData\\Local\\Temp\\"
+USER => "MFortes1"
+USERDNSDOMAIN => "UK.PRI.O2.COM"
+USERDOMAIN => "UK"
+USERNAME => "MFortes1"
+USERPROFILE => "C:\\Users\\mfortes1"
+VSEDEFLOGDIR => "C:\\ProgramData\\McAfee\\DesktopProtection"
+git_install_root => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
+github_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PortableGit_93e8418133eb85e81a81e5e19c272776524496c6"
+github_posh_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a"
 github_shell => "true"
-posh_git => "C:\\Users\\operador\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a\\profile.example.ps1"
+posh_git => "C:\\Users\\mfortes1\\AppData\\Local\\GitHub\\PoshGit_e0fc5e56ff55708a890f408f03656f758fa0ba8a\\profile.example.ps1"
 windir => "C:\\windows"
+windows_tracing_flags => "3"
+windows_tracing_logfile => "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
 
 === GEMFILE.LOCK:
 
