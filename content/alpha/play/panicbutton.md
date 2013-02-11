@@ -4,7 +4,9 @@ This example uses the Raspberry Pi (single board computer) to create a 'panic bu
 
 With some simple hardware modifications to the Pi, we can add a switch and LED via the hardware interface (known as the GPIO):
 
-**TODO ADD CIRCUIT IMAGE HERE** 
+
+![Alt text](/img/panic.jpg)
+
 
 This is the most simple approach to hardware interfacing on the Pi, but please bear in mind that connecting directly to the GPIO pins means you are connected directly to the processor lines, and it is possible to pull too much current and burn out your Pi!  If you are going to experiment extensively, a better approach is an add-on I/O board, such as the *'Slice of PI/O'* from Ciseco (<http://www.ciseco.co.uk>).
 
