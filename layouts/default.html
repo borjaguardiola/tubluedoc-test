@@ -35,7 +35,7 @@
   .page-footer li {
     border-bottom: #CCC 1px dotted;
   }
-  .page-footer a{
+  .page-footer li a{
     font-style: italic;
     font-family: Georgia,"Times New Roman",Times,serif;
     list-style: none;
@@ -47,8 +47,8 @@
     letter-spacing: normal;
     margin-bottom: 0;
     margin-left: 0;
-  }
-    .page-footer a:hover{
+  } 
+    .page-footer li a:hover{
       color: #000;
       text-decoration: none;
   }
@@ -394,12 +394,12 @@
 <div class="page-footer">
   <div id="footer" class="container-fluid">
     <div class="row-fluid">
-      <div class="footer_inner clearfix offset4">
+      <div class="footer_inner clearfix offset1">
 
         <ul class="footer_nav span2 unstyled">
-          <h4>Bluevia</h4>
+          <h4><a href="http://bluevia.com">Bluevia</a></h4>
           <li>
-            <a href="http://bluevia.com">Home</a>
+            <a href="https://bluevia.com/en/page/tour">Tour</a>
           </li>
           <li>
             <a href="http://bluevia.com/ot-www/webroot/index.php/en/page/boilerplate.TermsAndConds">terms and conditions</a>
@@ -413,9 +413,68 @@
         </ul>
 
         <ul class="footer_nav span2 unstyled">
+            <h4><a href="https://bluevia.com/en/page/tech">Tech Stuff</a></h4>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.overview">Overview</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.howto">How To</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.APIs">APIs</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.libraries">Libraries</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.bluevialab">BlueVia Lab</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/tech.arduino">Arduino</a>
+            </li>
+        </ul>
+
+        <ul class="footer_nav span2 unstyled">
+            <h4><a href="https://bluevia.com/en/page/biz">Biz Stuff</a></h4>
+            <li>
+                <a href="https://bluevia.com/en/page/biz.businessmodels">Business Models</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/biz.digitalgoods">Selling Digital Goods</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/biz.getpaid">Get Paid</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/biz.marketingstuff">Marketing Stuff</a>
+            </li>
+            <li>
+                <a href="https://bluevia.com/en/page/biz.wayra">Wayra</a>
+            </li>
+        </ul>
+        <ul class="footer_nav span2 unstyled">
+            <h4><a href="https://bluevia.com/en/page/inspiration">Inspiration</a></h4>
+            <li>
+                <a id="menu-case" href="https://bluevia.com/en/page/inspiration.appiversary">Appiversary</a>
+            </li>
+            <li>
+                <a id="menu-case" href="https://bluevia.com/en/page/inspiration.facejam">FaceJam</a>
+            </li>
+            <li>
+                <a id="menu-case" href="https://bluevia.com/en/page/inspiration.facetones">Facetones</a>
+            </li>
+            <li>
+                <a id="menu-case" href="https://bluevia.com/en/page/inspiration.textdeck">Textdeck</a>
+            </li>
+            <li>
+                <a id="menu-case" href="https://bluevia.com/en/page/inspiration">More...</a>
+            </li>
+        </ul>
+
+        <ul class="footer_nav span2 unstyled">
           <h4>Support</h4>
           <li>
-            <a href="http://bluevia.com/ot-www/webroot/index.php/en/page/support">contact us</a>
+            <a href="https://bluevia.com/en/page/support">contact us</a>
           </li>
         </ul>
       </div>
@@ -428,8 +487,9 @@
 </div>
 <script>
 
-  $(".apidoc dt").addClass("span3");
-  $(".apimethod dt").addClass("span1");
+  $(".apidoc li > dl > dt").addClass("span3");
+  $(".apidoc dl dl dt").addClass("span4");
+  $(".apimethod dt").addClass("span2");
   $(".apimethod dd").addClass("offset1");
 
   // Highlighting current page in the sidebar menu
