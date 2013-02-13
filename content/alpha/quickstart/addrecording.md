@@ -76,8 +76,6 @@ So that's the basics of inbound calling. Let's have a look at [using the BlueVia
 
 
 
-[Forward - Create A Call With The REST API] [Quick Start Guide Call With REST API] / [Back - A Conference With Pin Codes] [Quick Start Guide Conf With Pin Code]
-
 
 
 [Command Reference Record Conference]: /alpha/commandref/record

@@ -40,8 +40,6 @@ The easiest way to modify this configuration is to have a look at our [BlueVia V
 To make outbound calls via the the [BlueVia VOICE RESTful API][API Reference] you will need access to your application server to be able to make HTTP REST API requests. The easiest way to get up and running is to have a look at the quick start guide to [create conference calls using the BlueVia Voice RESTful API][Quick Start Guide REST API Create Call]  
 
 
-[Forward - BlueVia Voice API Costs] [Overview Pricing] /  [Back - Configuring Your BlueVia Voice Numbers] [Overview Configure]
-
 
 [BlueVia Dashboard]: https://www.bluevia.com
 [Command Reference Speak]: /alpha/commandref/speak

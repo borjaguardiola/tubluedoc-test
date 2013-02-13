@@ -17,7 +17,6 @@ The BlueVia Voice API Quick Start Guide is broken up into:
 * the [BlueVia Voice RESTful API Quick Start Guide][Quick Start Guide REST API]
 
 
-[Forward - BlueVia Voice API Quick Start Guide - Inbound] [Quick Start Guide Inbound] / [Back - BlueVia Voice API][index]
 
 [index]: index
 [Quick Start Guide Inbound]: /alpha/quickstart/connectcallnocode

@@ -207,7 +207,6 @@ That's it. With a few lines of code you have created a dial in conference servic
 
 Now let’s have a look at allowing conference participants to [record their name and play their name][Quick Start Conference Record Participants], prior to entering the conference.
 
-[Forward - Record Participants On Conference Entry] [Quick Start Conference Record Participants] / [Back - Create A Conference Without Code] [Quick Start Conference No Code]
 
 
 [BlueVia Dashboard]: http://www.bluevia.com

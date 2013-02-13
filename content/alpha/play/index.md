@@ -16,8 +16,6 @@ In this demo there are two files
 To run this demo, simply host the two PHP scripts on your server, configure you BlueVia Voice Number's callback URL to the URL for *BBC-RSS-Reader.php* and call your BlueVia Voice Number form any phone!
 
 
-[Forward - Raspberry Pi Panic Button][Play Panic Button]
-
 
 [BBC News Reader]: https:
 [Play Panic Button]: /alpha/play/panicbutton

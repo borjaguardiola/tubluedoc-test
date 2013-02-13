@@ -20,7 +20,6 @@ The BlueVia Voice API can be used in either of two ways (or a combination of bot
 
 **TODO Image for service overview and description**
 
-[Forward - REST API Overview][Overview REST API]
 
 [Quick Start Guide]: /alpha/quickstart/
 [Overview Configure]: /alpha/overview/configure

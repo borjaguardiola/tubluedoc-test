@@ -71,8 +71,6 @@ Then finally you simply format the HTTP POST request and make the request passin
 So you have seen how to create a call using the BlueVia RESTful API. Have a look at the next quick start guide to see how you can [create conference calls][Quick Start Guide Conf With REST API] using the API.
 
 
-[Forward - Create A Conference With The REST API] [Quick Start Guide Conf With REST API] / [Back - Create A Call With The REST API] [Quick Start Guide Call With REST API]
-
 
 [API Reference Calls Resource]: /alpha/restref/calls
 [Quick Start Guide Call With REST API]: /alpha/quickstart/restapicreatecall

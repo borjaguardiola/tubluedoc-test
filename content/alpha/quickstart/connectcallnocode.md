@@ -58,7 +58,6 @@ Lets try [creating conference calls][Quick Start Guide Create Conf No Code]
 
 
 
-[Forward - Create a Conference Call With No Code - Inbound] [Quick Start Guide Create Conf No Code] / [Quick Start Guide]
 
 [Amazon S3]: http://aws.amazon.com
 [AWS Console]: https://console.aws.amazon.com/console/home

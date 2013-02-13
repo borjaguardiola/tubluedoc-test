@@ -5,7 +5,6 @@ You can add balance to your BlueVia account via the [BlueVia dashboard][BlueVia 
 You are also able to set up an auto-topup through the payment pages, which will allow for the automatic addition of further balance to your account, should your balance fall below the specified threshold. Please note during the alpha period the balance threshold is fixed. Keep your eyes on the [BlueVia Roadmap][RoadMap] to see when you will be able to specify the balance topup threshold setting specific to your account.      
 
 
-[Forward - Buying Numbers] [Overview Numbers]  /  [Back - Existing BlueVia APIs][Overview Existing APIs]
 
 
 [BlueVia Dashboard]: https://www.bluevia.com

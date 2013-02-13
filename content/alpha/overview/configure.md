@@ -26,7 +26,6 @@ In the same manner as you can override, voice callback and fallback URLs, you wi
 
 
 
-[Forward - Using Your BlueVia Voice Numbers] [Overview Using Numbers] /  [Back - Buying Numbers] [Overview Numbers]
 
 [BlueVia Dashboard]: http://www.bluevia.com
 [API Reference]: /alpha/restref/

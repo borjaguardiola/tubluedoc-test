@@ -12,8 +12,6 @@ Post the alpha period we will also be adding support for numbers in further terr
 
 
 
-[Forward - Configuring Your BlueVia Voice Numbers] [Overview Configure] /  [Back - Add Balance To Your Acount] [Overview Add Balance]
-
 
 [Overview Configure]: /alpha/overview/configure
 [Overview Add Balance]: /alpha/overview/balance

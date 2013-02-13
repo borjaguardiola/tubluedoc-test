@@ -18,7 +18,7 @@ Thirdly, there is no revenue share business model, as there has been with previo
 There is of course no limitation as to how you pass on any associated cost of usage of the BlueVia voice API’s to your customers. In the future there will be the possibility of using the BlueVia Direct To Bill payments, in certain countries, which will allow you to pass on API costs to your end customers if you choose to. Direct to Bill payments are not available during out alpha phase, however please keep track of the [BlueVia roadmap][RoadMap] to see when this might be available, and in which countries. Of course Direct To Bill payments will only be available through BlueVia to Telefonica and Telenor customers.
 
 
-[Forward - Add Balance To Your Acount] [Overview Add Balance]  /  [Back - Call Flows][Overview Call Flows]  
+
 
 [Overview Add Balance]: /alpha/overview/balance
 [Overview Call Flows]: /alpha/overview/callflows

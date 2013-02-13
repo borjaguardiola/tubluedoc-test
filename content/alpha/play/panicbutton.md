@@ -48,7 +48,5 @@ and the same for *checkswitch*.
 If you want to use the ZeroMQ events, you will need to build ZeroMQ for the Raspberry Pi (see  <http://www.zeromq.org/distro:debian>) and also the PHP language bindings (see <http://www.zeromq.org/bindings:php>, *'Build from Github'*).
 
 
-[Back - BBC Newsreader][Play News Reader]
-
 
 [Play News Reader]: /alpha/play/

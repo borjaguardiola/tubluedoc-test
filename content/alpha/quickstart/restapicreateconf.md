@@ -23,7 +23,6 @@ You could then update *makeACall.php* to call Phone B, and they too will be plac
 You have just covered the basics with these quick start guides. They should be enough to get you up and running but for further details about the RESTful API see [the BlueVia RESTful API reference][API Reference]. For further details about the Call Control Commands see the [BlueVia Voice Call Control Comands Reference][Command Reference].
 
 
-[Forward - BlueVia Vocie REST API Reference] [API Reference] / [Back - Modify An Existing Call With The REST API] [Quick Start Modify Call Rest API]
 
 
 [Quick Start Guide Inbound]: /alpha/quickstart/connectcallnocode

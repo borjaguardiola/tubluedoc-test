@@ -45,8 +45,6 @@ We are also working to expose an error notification event, [see call notificatio
 Full resource access within the [BlueVia RESTful API][API Reference] is not available in the alpha release. The limitations within the API are highlighted within the RESTful API reference.
 
 
-[Forward - BlueVia Voice API Quick Start Guide] [Quick Start Guide] / [Back - BlueVia Voice API Costs] [Overview Pricing]
-
 
 [RoadMap]: /alpha/roadmap/
 [BlueVia Twitter]: http://www.twitter.com/bluevia

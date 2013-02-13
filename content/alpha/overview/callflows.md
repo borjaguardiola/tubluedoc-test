@@ -24,7 +24,6 @@ An inbound call scenario, using the [BlueVia Voice Call Control Commands][Comman
 
 These flows are simply examples though. You can choose to use any combination of Call Control Commands and API calls that you wish to. These flows are based on the standard notifications that are received for in progress calls. If you wish to, you can specify to receive notifications for all in call events that are received by BlueVia. By [managing BlueVia Voice Call Notifications][Notifications] you can create feature rich call flows by having access to notifications for every facet of an existing call. 
 
-[Forward - Existing BlueVia APIs] [Overview Existing APIs]  /  [Back - Call Control Commands][Overview Call Control]  
 
 
 [REST Ref]: /alpha/restref/

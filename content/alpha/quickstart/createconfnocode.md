@@ -26,7 +26,6 @@ The [Dial command documentation][Command Reference Dial Conference] provides fur
 OK static calls and conferences are OK, but lets explore a little more and see what you can do. Have a look at the next quick start guide to [create a a Conference with pin codes] [Quick Start Guide Conf With Pin Code].
 
 
-[Forward - A Conference With Pin Codes] [Quick Start Guide Conf With Pin Code] / [Back - BlueVia Voice API Quick Start Guide - Inbound] [Quick Start Guide Inbound]
 
 [BlueVia Dashboard]: https://www.bluevia.com
 [Command Reference Dial Conference]: /alpha/commandref/dial#conference

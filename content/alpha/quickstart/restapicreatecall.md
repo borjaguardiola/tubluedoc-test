@@ -113,8 +113,6 @@ The above code retrieves the *callID*. We will use this to [modify an existing c
 To execute *makeACall.php* host the script on your Web Server, with PHP running and from the command line call *php makeACall.php* 
 
 
-[Forward - Modify An Existing Call With The REST API] [Quick Start Modify Call Rest API] / [Back - Record Participants On Conference Entry] [Quick Start Conference Record Participants]
-
 
 [API Reference]: /alpha/restref/
 [Quick Start Guide Inbound]: /alpha/quickstart/connectcallnocode

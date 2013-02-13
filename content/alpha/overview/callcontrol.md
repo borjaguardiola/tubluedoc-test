@@ -21,8 +21,6 @@ Using call control commands you can:
 * [Send an SMS from your BlueVia Voice Numbers] [Command Reference SMS]. Although not supported during the alpha period, after commercial launch, you will be able to send and receive SMS to certain BlueVia Voice Numbers. Functionality for inbound SMS will be limited to certain countries, however you will be able to send SMS, using the SMS command, globally. 
 
 
-[Forward - Call Flows] [Overview Call Flows]  /  [Back - The BlueVia RESTful API][Overview REST API]  
-
 
 [Command Reference]: /alpha/commandref/
 [Command Reference Dial]: /alpha/commandref/dial
