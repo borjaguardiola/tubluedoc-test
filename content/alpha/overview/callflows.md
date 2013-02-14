@@ -19,6 +19,7 @@ An inbound call scenario, using the [BlueVia Voice Call Control Commands][Comman
 ![Alt text](/img/outbound_call.png)
 
 
+
 1. When your BlueVia Voice Number is called BlueVia makes a HTTP POST request to the URL that you have configured on your BlueVia Voice Number. See [Configuring your BlueVia number][Overview Configure]. 
 2. This POST request will contain the data you need to engage with your Customer. Such as the number of the person who has called etc... See [BlueVia Voice API notifications][Notifications] for the complete set of data that is available or each notification that can be sent by BlueVia to your application server. 
 3. When you receive the notification from BlueVia you can decide how you wish to engage with the inbound call. At this stage, you may wish to respond to the HTTP POST request made by BlueVia to your application server, or alternatively, as with the outbound call scenario you may wish to modify the call via an API request.  
