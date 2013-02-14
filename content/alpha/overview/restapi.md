@@ -8,11 +8,9 @@ The [BlueVia Voice RESTful API] [API Reference] provides two simple methods to m
 ## Create a call
 A call comprises one to many call legs, where a call leg is a connection between your BlueVia Voice Number and your Customer. Creating a call creates the first call leg and allows you to engage with the connected customer. 
 
+The following diagram highlights a call consisting of one to many call legs
 
-
-**TODO Would be good to have a diagram explaining the call legs etc?**
-
-
+![Alt text](/img/call.png)
 
 ## Modify an existing call
 Modifying an existing call allows you to send commands to a call or to specific legs within a call. When you modify a call you do so by specifying a URL to the [BlueVia Voice Call Control Commands] [Overview Call Control] or alternatively by providing the call control commands within the modify call RESTful API request. Modifying a call allows you to add further call participants, specify specific call legs to record, request DTMF input from a Customer on a call etc... Further details of how you can manage your calls can be seen in the [BlueVia RESTful API Reference][API Reference] documentation.
