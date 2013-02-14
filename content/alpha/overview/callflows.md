@@ -3,7 +3,8 @@
 An outbound call scenario, using the [BlueVia Voice RESTful API][REST Ref] can be described as follows:
 
 
-**TODO add sequence diagram for outbound API call flow**
+![Alt text](/img/outbound_call.png)
+
 
 
 1. The 1st leg of a call can be created by a [HTTP POST to the BlueVia Calls resource][REST Ref Call Collection]
@@ -15,7 +16,7 @@ An outbound call scenario, using the [BlueVia Voice RESTful API][REST Ref] can b
 An inbound call scenario, using the [BlueVia Voice Call Control Commands][Command Reference] can be described as follows: 
 
 
-**TODO add sequence diagram for inbound call flow**
+![Alt text](/img/outbound_call.png)
 
 
 1. When your BlueVia Voice Number is called BlueVia makes a HTTP POST request to the URL that you have configured on your BlueVia Voice Number. See [Configuring your BlueVia number][Overview Configure]. 
