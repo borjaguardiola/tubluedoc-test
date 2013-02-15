@@ -31,7 +31,13 @@ In this example the A number will be the number you use to start a call using th
 
 Once you have configured your number's callback URL to point to this JSON file, BlueVia will make a HTTP POST request to retrieve these commands, once Phone A, that you will call via an API call, answers. When Phone A answers, This JSON will result in Phone B being called and when Phone B answers, both Phone A and Phone B will be on the same call.
 
-This demo uses the *makeACall.php* script that you can find in the Quick Start demo code from github  **@todo: ADD LINK**. 
+The simplest way to create a call via the RESTful API is *curl* from the command line
+
+	curl -k -H "Accept: application/json" -H "Content-type: application/json" --user <your API key>:<your API secret> -X POST -d '{"callerId":"tel:+<country code><your BlueVia Voice Number>","destination":"tel:+<country code><the number you wish to call>"}' https://<BlueVia API Host>/comms/v1/calls 
+
+When the destination phone rings, and answers the destination phone, specified in the *dial* command in the JSON referred to by the callback URL, will be called and the two phones will be connected on a call.  
+
+The same of course can be managed through php and this demo uses the *makeACall.php* script that you can find in the Quick Start demo code from github  **@todo: ADD LINK**. 
 
 Stepping through *makeACall.php*
 
@@ -111,7 +117,6 @@ The following code, in the *makeACall.php* script is not actually used in this d
 The above code retrieves the *callID*. We will use this to [modify an existing call with the REST API] [Quick Start Modify Call Rest API].
 
 To execute *makeACall.php* host the script on your Web Server, with PHP running and from the command line call *php makeACall.php* 
-
 
 
 [API Reference]: /alpha/restref/
