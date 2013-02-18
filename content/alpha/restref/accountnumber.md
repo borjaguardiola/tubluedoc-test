@@ -29,16 +29,20 @@ POST
 * Supported Query Parameters
     : None
 
-* Body: The POST includes a JSON or an XML body.
+* Body
+    : The POST includes a JSON or an XML body.
 	* The following parameters can be provided in the HTTP Body
-				: callbackUrl 
-					: this is the callback URL you wish to assign to your number. This can also be set in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
-				: fallbackUrl 
-					: this is the fallback URL you wish to assign to the your number. Again this can also be done in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
+				
+		: callbackUrl 
+		  : this is the callback URL you wish to assign to your number. This can also be set in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
+		: fallbackUrl 
+		  : this is the fallback URL you wish to assign to the your number. Again this can also be done in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
 
 
 * Examples
-  : JSON example: @todo validate this
+  
+: JSON example 
+	@todo validate this
 			~~~
 			  {
         			"callbackUrl": "http://newurl1.com",
@@ -47,10 +51,10 @@ POST
  			~~~
 
  : XML example
-			  @todo get one 
+	@todo get one 
 
- : CURL example:
-			  @todo get one
+ : CURL example
+	@todo get one
 
 
 {: .reqfields}
@@ -58,8 +62,9 @@ POST
 
 <div id="tab2" class="tab-pane" markdown="1">
 
-* Successful response:
-	: HTTP Response: 200 OK.
+* Successful response
+	: HTTP Response 
+		: 200 OK.
 	: Body
 		: The response does not include a body
 		
@@ -78,7 +83,8 @@ POST
 
 <div class="apimethodgroup well well-small" markdown="1">
 GET
-: YES - NOTE: not available during the alpha period
+: YES 
+- NOTE: not available during the alpha period
 	* You can invoke a GET to this resource to request the configuration detail for the specified {number} on your account
 	* NOTE: Further detail of this method will be provided when delivered. 
 
@@ -87,7 +93,8 @@ GET
 
 <div class="apimethodgroup well well-small" markdown="1">
 PUT
-: YES - NOTE: not available during the alpha period
+: YES 
+- NOTE: not available during the alpha period
 	* You can invoke a PUT to this resource which in effect purchases a BlueVia Voice Number and adds this to your account. Using this method also allows you to specify the configuration or the number you are purchasing.  Available numbers can be retrieved using the GET operation for the [Available Numbers Collections][URL_To_Available_Numbers_Collection]
 	* NOTE: Further detail of this method will be provided when delivered. 
 
@@ -97,7 +104,8 @@ PUT
 
 <div class="apimethodgroup well well-small" markdown="1">
 DELETE
-: YES - NOTE: not available during the alpha period
+: YES 
+- NOTE: not available during the alpha period
 	* Using DELETE on this resource releases the specified BlueVia Voice Number ({number}) from your account.
 	* NOTE: Further detail of this method will be provided when delivered.
 </div><!-- apimethodgroup -->
