@@ -2,7 +2,7 @@
 
 ## Account
 
-URL    /comms/v1/me{format}
+	URL /comms/v1/me{format}
 
 <div class="apimethodgroup well well-small" markdown="1">
 
@@ -16,7 +16,7 @@ POST
 
 <div class="apimethodgroup well well-small" markdown="1">
 GET
-:YES - NOTE: not available during the alpha period <i class="icon-chevron-down pull-right">&nbsp;</i>
+: YES - NOTE: not available during the alpha period <i class="icon-chevron-down pull-right">&nbsp;</i>
 <!-- Remove the "i" block if this method is not available -->
 
 	* Provides basic information about your account. A List of the BLueVia Voice Numbers  on your account are provided. Further detail on these numbers can then be retrieved using the GET operation for [Account Number Collections][URL_To_Account_Number_Collection] and [Account Numbers][URL_To_Account_Number]
@@ -39,7 +39,7 @@ GET
 <div class="apimethodgroup well well-small" markdown="1">
 
 PUT
-:NOT ALLOWED 
+: NOT ALLOWED 
 {: .apimethod #putmethod data-toggle="collapse" data-target="#putdoc"}
 <!-- This HTML doesn't need changes -->
 
@@ -47,8 +47,9 @@ PUT
 
 
 <div class="apimethodgroup well" markdown="1">
+
 DELETE
-:NOT ALLOWED 
+: NOT ALLOWED 
 
 {: .apimethod #deletemethod data-toggle="collapse" data-target="#deletedoc"}
 <!-- This HTML doesn't need changes -->
