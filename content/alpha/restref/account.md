@@ -2,12 +2,12 @@
 
 ## Account
 
-URI   */comms/v1/me{format}
+URI    /comms/v1/me{format}
 
 <div class="apimethodgroup well well-small" markdown="1">
 
 POST
-	*: NOT ALLOWED
+	: NOT ALLOWED
 
 
 {: .apimethod #postmethod data-toggle="collapse" data-target="#postdoc"}
@@ -19,8 +19,13 @@ POST
 <div class="apimethodgroup well well-small" markdown="1">
 
 GET
-   *: YES - NOTE: not available during the alpha period <i class="icon-chevron-down pull-right">&nbsp;</i>
+   * YES - NOTE: not available during the alpha period <i class="icon-chevron-down pull-right">&nbsp;</i>
 <!-- Remove the "i" block if this method is not available -->
+
+	* Provides basic information about your account. A List of the BLueVia Voice Numbers  on your account are provided. Further detail on these numbers can then be retrieved using the GET operation for [Account Number Collections][URL_To_Account_Number_Collection] and [Account Numbers][URL_To_Account_Number]
+	* Your account information will also contain of the balance left on your account.
+	* NOTE: Further detail of this method will be provided when delivered. 
+
 {: .apimethod #getmethod data-toggle="collapse" data-target="#getdoc"}
 <!-- This HTML doesn't need changes -->
 <div class="apidoc collapse tabable offset1" id="getdoc">
@@ -30,19 +35,6 @@ GET
   </ul>
   <div class="tab-content">
 
-	* Provides basic information about your account. A List of the BLueVia Voice Numbers  on your account are provided. Further detail on these numbers can then be retrieved using the GET operation for [Account Number Collections][URL_To_Account_Number_Collection] and [Account Numbers][URL_To_Account_Number]
-	* Your account information will also contain of the balance left on your account.
-	* NOTE: Further detail of this method will be provided when delivered. 
-
-
-
-<div id="tab1" class="tab-pane active" markdown="1">
-  <!-- Request content here if any -->
-
-</div>
-<div id="tab2" class="tab-pane" markdown="1">
-  <!-- Response content here if any -->
-</div> <!-- tab2 -->
 </div> <!-- tab-content -->
 </div> <!-- apidoc -->
 </div><!-- apimethodgroup -->
@@ -50,7 +42,7 @@ GET
 <div class="apimethodgroup well well-small" markdown="1">
 
 PUT
-	*: NOT ALLOWED 
+	* NOT ALLOWED 
 {: .apimethod #putmethod data-toggle="collapse" data-target="#putdoc"}
 <!-- This HTML doesn't need changes -->
 
@@ -59,7 +51,7 @@ PUT
 
 <div class="apimethodgroup well" markdown="1">
 DELETE
-*: NOT ALLOWED 
+* NOT ALLOWED 
 
 {: .apimethod #deletemethod data-toggle="collapse" data-target="#deletedoc"}
 <!-- This HTML doesn't need changes -->
