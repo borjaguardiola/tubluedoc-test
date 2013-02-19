@@ -4,12 +4,20 @@
 URI
 	* /comms/v1/calls/{callId}{format}
 
+
+
+<div class="apimethodgroup well well-small" markdown="1">
 POST
-	* NOT ALLOWED
+: NOT ALLOWED
 	* NOTE: A call is a REST resource, but the resource itself is not modified. Instead it is possible to modify an existing call, by passing in call control commands, using the [setcommands shortcut][URL_To_Setcommands]
 
+
+</div><!-- apimethodgroup -->
+
+<div class="apimethodgroup well well-small" markdown="1">
+
 GET
-	* YES 
+: YES 
 	* If you invoke a GET to the calls collection you will retrieve the current state of the call specified by the {callId}
 	* REQUEST:
 		*HTTP Method: GET
@@ -82,14 +90,24 @@ GET
 		* Error response:
 			* Consists of an HTTP Error response together with a code and an explanatory text. Possible errors are those applicable among the errors described in [BlueVia Voice Error Codes][URL_To_BlueVia_Voice_And_SMS_Error_Codes].
 
+
+</div><!-- apimethodgroup -->
+
+<div class="apimethodgroup well well-small" markdown="1">
 PUT
-	* NOT ALLOWED
+: NOT ALLOWED
 	* NOTE: A call is a REST resource, but the resource itself is not modified. Instead it is possible to modify an existing call, by passing in call control commands, using the [setcommands shortcut][URL_To_Setcommands]
 
+
+</div><!-- apimethodgroup -->
+
+<div class="apimethodgroup well well-small" markdown="1">
 DELETE
-	* NOT ALLOWED
+: NOT ALLOWED
 
 
-[URL_To_Setcommands]: https:
-[URL_To_BlueVia_Voice_And_SMS_Error_Codes]: https:
-[URL_To_Setcommands]: https:
+</div><!-- apimethodgroup -->
+
+
+
+<%= render '/links'%>
