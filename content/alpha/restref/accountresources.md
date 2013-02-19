@@ -11,8 +11,5 @@ The alpha release of the BlueVia RESTful API, as described by the [resource tree
 
 NOTE: The alpha API doesn’t represent the final RESTful AI that will be made available by the BLueVIa Voice API’s. Further resource access is being made available. Resources that are not available in the alpha release are highlighted below.
 
-[URL_To_BlueVia_Voice_RESTful_API_Reference] http://
-[URL_To_BlueVia_Voice_RESTful_Account_Management] http://
-[URL_To_BlueVia_Voice_RESTful_Available_Numbers] http://
-[URL_To_BlueVia_Voice_RESTful_Available_Numbers] http://
-[URL_To_BlueVia_Voice_RESTful_Available_Numbers] http://
+
+<%= render '/links'%>

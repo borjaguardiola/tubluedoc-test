@@ -1,8 +1,7 @@
 ## Account Number
 
-
 URI
-/comms/v1/me/numbers/{number}{format}
+	* /comms/v1/me/numbers/{number}{format}
 
 <div class="apimethodgroup well well-small" markdown="1">
 POST
@@ -41,19 +40,18 @@ POST
 
 * Examples
   
-: JSON example 
-	@todo validate this
-			~~~
-			  {
-        			"callbackUrl": "http://newurl1.com",
-        			"fallbackUrl": "http://newurl2.com",
-			  }
- 			~~~
+* JSON example  @todo validate this
+			
+	 {
+		"callbackUrl": "http://newurl1.com",
+		"fallbackUrl": "http://newurl2.com",
+	 }
+ 			
 
- : XML example
+* XML example
 	@todo get one 
 
- : CURL example
+* CURL example
 	@todo get one
 
 
