@@ -1,8 +1,7 @@
 ## Account Numbers Collection
 
 
-URI
-	* /comms/v1/me/numbers{format}
+	URI /comms/v1/me/numbers{format}
 
 <div class="apimethodgroup well well-small" markdown="1">
 POST

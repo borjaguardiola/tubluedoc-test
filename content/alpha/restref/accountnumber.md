@@ -1,7 +1,6 @@
 ## Account Number
 
-URI
-	* /comms/v1/me/numbers/{number}{format}
+	URI /comms/v1/me/numbers/{number}{format}
 
 <div class="apimethodgroup well well-small" markdown="1">
 POST
@@ -32,15 +31,18 @@ POST
     : The POST includes a JSON or an XML body.
 	* The following parameters can be provided in the HTTP Body
 				
-		: callbackUrl 
+	: callbackUrl 
 		  : this is the callback URL you wish to assign to your number. This can also be set in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
-		: fallbackUrl 
+		
+	: fallbackUrl 
 		  : this is the fallback URL you wish to assign to the your number. Again this can also be done in the [BlueVia Dashboard][URL_To_BlueVia_Dashboard]
 
 
 * Examples
+
   
-* JSON example  @todo validate this
+	* JSON example  
+	@todo validate this
 			
 	 {
 		"callbackUrl": "http://newurl1.com",
@@ -48,10 +50,10 @@ POST
 	 }
  			
 
-* XML example
+	* XML example
 	@todo get one 
 
-* CURL example
+	* CURL example
 	@todo get one
 
 
@@ -108,8 +110,4 @@ DELETE
 	* NOTE: Further detail of this method will be provided when delivered.
 </div><!-- apimethodgroup -->
 
-[URL_To_BlueVia_Dashboard]: https:
-[URL_To_BlueVia_Dashboard]: https:
-[URL_To_BlueVia_Dashboard]: https:
-[URL_To_BlueVia_Voice_And_SMS_Error_Codes]: https:
-[URL_To_Available_Numbers_Collection]: https:
+<%= render '/links'%>
